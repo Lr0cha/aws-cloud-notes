@@ -9,6 +9,7 @@ Welcome! This repository contains notes, guides, and summaries about **Cloud Com
 ### 🔹 Overview
 1. [Cloud Computing – Overview](docs/01-cloud-overview.md)
 2. [What is AWS?](docs/02-what-is-aws.md)
+3. [Shared Responsibility Model](docs/03-shared-responsibilities.md)
 
 ---
 

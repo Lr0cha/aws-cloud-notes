@@ -11,6 +11,9 @@ Welcome! This repository contains notes, guides, and summaries about **Cloud Com
 2. [What is AWS?](docs/02-what-is-aws.md)
 3. [Shared Responsibility Model](docs/03-shared-responsibilities.md)
 
+### 🔹 Core AWS Services
+4. [AWS IAM (Identity and Access Management)](docs/04-aws-iam.md)
+
 ---
 
 > [!NOTE]\

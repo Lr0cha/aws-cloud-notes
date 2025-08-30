@@ -13,6 +13,7 @@ Welcome! This repository contains notes, guides, and summaries about **Cloud Com
 
 ### 🔹 Core AWS Services
 4. [AWS IAM (Identity and Access Management)](docs/04-aws-iam.md)
+5. [AWS S3 (Simple Storage Service)](docs/05-aws-s3.md)
 
 ---
 

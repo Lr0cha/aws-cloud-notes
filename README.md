@@ -15,6 +15,7 @@ Welcome! This repository contains notes, guides, and summaries about **Cloud Com
 4. [AWS IAM (Identity and Access Management)](docs/04-aws-iam.md)
 5. [AWS S3 (Simple Storage Service)](docs/05-aws-s3.md)
 6. [AWS VPC (Virtual Private Cloud)](docs/06-aws-vpc.md)
+7. [AWS EC2 (Elastic Compute Cloud)](docs/07-aws-ec2.md)
 
 ---
 

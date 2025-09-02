@@ -6,7 +6,11 @@ Welcome! This repository contains notes, guides, and summaries about **Cloud Com
 
 
 ## 📑 Summary
-### 🔹 Overview
+
+### 🔹 Review
+- [Network Basics (recommended)](docs/networking-basics.md)
+
+### 🔹 Foundations
 1. [Cloud Computing – Overview](docs/01-cloud-overview.md)
 2. [What is AWS?](docs/02-what-is-aws.md)
 3. [Shared Responsibility Model](docs/03-shared-responsibilities.md)
@@ -16,9 +20,10 @@ Welcome! This repository contains notes, guides, and summaries about **Cloud Com
 5. [AWS S3 (Simple Storage Service)](docs/05-aws-s3.md)
 6. [AWS VPC (Virtual Private Cloud)](docs/06-aws-vpc.md)
 7. [AWS EC2 (Elastic Compute Cloud)](docs/07-aws-ec2.md)
+8. [AWS Elastic Load Balancer](docs/08-aws-elb.md)
+9. [AWS EC2 Auto Scaling](docs/09-asg.md)
 
 ---
 
-> [!NOTE]\
 > This repository is for educational purposes only.  
-> AWS icons are used from [AWS Architecture Icons](https://aws-icons.com/).  
+> AWS icons are used from [AWS Architecture Icons](https://aws-iconawss.com/).  

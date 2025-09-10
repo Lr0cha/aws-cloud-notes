@@ -42,7 +42,7 @@ Amazon SQS is a **fully managed message queuing service** that enables decouplin
   * **Load Buffering** – Smoothens the processing of requests during traffic spikes by storing messages temporarily in the queue.
   * **Handling Burst Traffic** – SQS allows the queue to grow and handle high volumes of messages without overwhelming the consumers.
 
-* **Simple Example**:
+### Example:
   Consider a large e-commerce platform where user orders trigger several backend processes. Order data is pushed into an SQS queue. A backend worker processes the orders asynchronously.
 
 ---
@@ -83,8 +83,66 @@ SNS is a **fully managed pub/sub messaging service** that allows applications to
   * **Decoupling Microservices** – Trigger workflows across multiple distributed systems without directly coupling components.
   * **Serverless Applications** – Use SNS in a fully serverless environment, allowing seamless integration with AWS Lambda to trigger compute functions or with SQS to handle message queues.
 
-* **Example**:
+### Example:
   Imagine you have an EC2 instance running critical applications. If its **CPU utilization** spikes above 90%, an **Amazon CloudWatch alarm** is triggered. The alarm sends a notification to an SNS topic, which then sends alerts to subscribers like Lambda (for further processing), SQS (for queuing tasks), or directly to system administrators via email/SMS.
+
+---
+
+<div>
+  <h3>
+    <img src="../assets/event-bridge.png" alt="AWS EVENTBRIDGE" width="25px"/>
+    Amazon EventBridge</h3>
+</div>
+
+EventBridge is a **serverless event bus** that allows you to build event-driven applications by connecting different AWS services, SaaS applications, and custom applications.
+
+> [!IMPORTANT]\
+> Events can represent changes like data updates, resource state changes, or custom triggers.
+
+EventBridge includes two ways to process and deliver events:
+
+1. **EventBridge Bus**: A router that receives events and delivers them to zero or more targets.
+
+> [!NOTE]\
+> Well-suited for routing events from **many** sources to many targets.
+
+2. **EventBridge Pipes** is intended for **point-to-point** integrations, so it receives events from a **single source** for **processing** and delivery to a **single target**. 
+
+> [!NOTE]\
+> Pipes and event buses are often used together.
+
+![AWS EVENTBRIDGE](https://docs.aws.amazon.com/images/eventbridge/latest/userguide/images/service_eventbridge_conceptual.svg)
+> Image source: [What Is Amazon EventBridge?](https://docs.aws.amazon.com/eventbridge/latest/userguide/eb-what-is.html)
+ 
+* **Event Sources**:
+
+  * **AWS Services** – Events can be triggered from a wide range of AWS services (e.g., EC2 instance state change, S3 file uploads, or AWS CodePipeline).
+  * **SaaS Applications** – Third-party integrations (e.g., Zendesk, Datadog, PagerDuty) can generate events based on their activity.
+  * **Custom Applications** – Developers can publish custom events from their own applications via the EventBridge API.
+
+* **Event Routing**:
+
+  * **Rules** – Define how incoming events are processed, filtered, and routed to one or more **targets** such as Lambda functions, Step Functions, SQS queues, SNS topics, etc.
+  * **Schema Registry** – Automatically discover, catalog, and validate event schema to ensure compatibility across applications.
+
+* **Use Cases**:
+
+  * **Application Integration** – Integrate and automate actions across AWS services and third-party applications.
+  * **Real-Time Data Processing** – Automatically respond to changes, such as updating dashboards or triggering business logic in response to new data.
+  * **Serverless Orchestration** – Coordinate multiple serverless applications by triggering workflows like AWS Lambda, SQS, etc.
+
+### Example:
+  Imagine an e-commerce site that needs to track inventory changes in real-time. EventBridge can listen for **inventory updates** from an internal application and automatically trigger actions such as updating the website, adjusting stock levels, or notifying the warehouse team, all without the need for complex polling systems.
+
+---
+
+## Review
+
+| Service       | Model              | Best For |
+|---------------|-------------------|----------|
+| **SNS**       | Pub/Sub (fan-out) | Broadcasting messages to multiple subscribers. |
+| **SQS**       | Queue (point-to-point) | Decoupling producers/consumers, buffering workloads. |
+| **EventBridge** | Event Bus (event routing) | Event-driven architectures, automation, integrations. |
 
 ---
 
@@ -93,6 +151,8 @@ SNS is a **fully managed pub/sub messaging service** that allows applications to
 - [Amazon Web Services - Simple Queue Service(SQS)...](https://www.geeksforgeeks.org/devops/aws-sqs/)
 - [Amazon Simple Notification Service Documentation](https://docs.aws.amazon.com/sns/)
 - [Amazon Web Services - Simple Notification Service(SNS)](https://www.geeksforgeeks.org/devops/simple-notification-service-sns-in-aws/)
+- [Amazon EventBridge Documentation](https://docs.aws.amazon.com/eventbridge/)
+- [AWS - Amazon EventBridge](https://www.geeksforgeeks.org/devops/aws-eventbridge/)
 
 
 

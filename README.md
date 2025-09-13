@@ -23,7 +23,14 @@ Welcome! This repository contains notes, guides, and summaries about **Cloud Com
 8. [AWS Elastic Load Balancer](docs/08-aws-elb.md)
 9. [AWS EC2 Auto Scaling](docs/09-asg.md)
 
+### 🔹 Other AWS Services (Messaging, Compute, Storage ...)
+10. [AWS Storage (EBS, EFS, FSx)](docs/10-aws-storage.md)
+11. [AWS Databases](docs/11-aws-databases.md)
+12. [AWS Lambda (Serverless)](docs/12-aws-lambda.md)
+13. [AWS Messaging & Events (SQS, SNS, EventBridge)](docs/13-aws-messages-events.md)
+14. [AWS Containers (ECR, ECS, Fargate)](docs/14-aws-containers-services.md)
+    
 ---
 
 > This repository is for educational purposes only.  
-> AWS icons are used from [AWS Architecture Icons](https://aws-iconawss.com/).  
+> AWS icons are used from [AWS Architecture Icons](https://aws-icons.com/).  

@@ -45,7 +45,10 @@
 - [What is Amazon VPC?](https://docs.aws.amazon.com/vpc/latest/userguide/what-is-amazon-vpc.html)
 - [Introduction to AWS VPC](https://www.geeksforgeeks.org/devops/amazon-vpc-introduction-to-amazon-virtual-cloud/)
 
-
+<div align="center">
+  <a href="./05-aws-s3.md">◀️</a> |
+  <a href="./07-aws-ec2.md">▶️</a>
+</div>
 
 
 

@@ -99,4 +99,8 @@ Object storage stores data as objects (files + metadata + unique identifier) ins
 - [Choosing an AWS storage service](https://docs.aws.amazon.com/decision-guides/latest/storage-on-aws-how-to-choose/choosing-aws-storage-service.html)
 - [AWS Storage: EBS vs. S3 vs. EFS](https://youtu.be/_CN7KqC3y3s?si=ncQCYxMkkfcGnlCO)
 
+<div align="center">
+  <a href="./09-asg.md">◀️</a> |
+  <a href="./11-aws-databases.md">▶️</a>
+</div>
 

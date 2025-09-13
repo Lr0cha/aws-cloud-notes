@@ -93,3 +93,8 @@ def lambda_handler(event, context):
 - [Introduction to AWS Lambda](https://www.geeksforgeeks.org/devops/introduction-to-aws-lambda/)
 - [Lambda sample applications](https://docs.aws.amazon.com/lambda/latest/dg/lambda-samples.html)
 - [Creating event-driven architectures with Lambda](https://docs.aws.amazon.com/lambda/latest/dg/concepts-event-driven-architectures.html)
+
+<div align="center">
+  <a href="./11-aws-databases.md">◀️</a> |
+  <a href="./13-aws-messages-events.md">▶️</a>
+</div>

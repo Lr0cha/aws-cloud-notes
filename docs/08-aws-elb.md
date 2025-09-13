@@ -15,7 +15,7 @@ It improves **availability, fault tolerance, and scalability** of applications w
 - **Target groups** - Route requests to individual registered targets, such as EC2 instances, using the protocol and port number set up. 
 - **Protocol Support** – Handles HTTP, HTTPS, TCP, and UDP depending on load balancer type. 
 - **SSL/TLS Termination** – Offloads encryption/decryption from applications for better performance. 
-- **Integration** – Works seamlessly with [**Auto Scaling Groups**]("./09-aws-asg.md"), **Route 53 (DNS)**, and **CloudWatch**. 
+- **Integration** – Works seamlessly with [**Auto Scaling Groups**](./09-asg.md), **Route 53 (DNS)**, and **CloudWatch**. 
 
 ---
 
@@ -42,6 +42,10 @@ It improves **availability, fault tolerance, and scalability** of applications w
 - [Target groups for your Application Load Balancers](https://docs.aws.amazon.com/elasticloadbalancing/latest/application/load-balancer-target-groups.html)
 - [Tutorial: Set up a scaled and load-balanced application](https://docs.aws.amazon.com/autoscaling/ec2/userguide/tutorial-ec2-auto-scaling-load-balancer.html)
 
+<div align="center">
+  <a href="./07-aws-ec2.md">◀️</a> |
+  <a href="./09-asg.md">▶️</a>
+</div>
 
 
 

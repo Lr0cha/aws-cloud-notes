@@ -75,3 +75,8 @@ This policy allows **read-only access** to a specific S3 bucket:
 ## 🔗 Interesting resources
 - [Aws IAM docs](https://docs.aws.amazon.com/iam/)
 - [Use Cases of IAM](https://www.geeksforgeeks.org/devops/identity-and-access-management-iam-in-amazon-web-services-aws/)
+
+<div align="center">
+  <a href="./03-shared-responsibilities.md">◀️</a> |
+  <a href="./05-aws-s3.md">▶️</a>
+</div>

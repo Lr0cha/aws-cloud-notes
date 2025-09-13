@@ -46,7 +46,10 @@
 - [Amazon EC2 Auto Scaling](https://www.geeksforgeeks.org/devops/amazon-web-services-scaling-amazon-ec2/)
 - [Tutorial: Set up a scaled and load-balanced application](https://docs.aws.amazon.com/autoscaling/ec2/userguide/tutorial-ec2-auto-scaling-load-balancer.html)
 
-
+<div align="center">
+  <a href="./08-aws-elb.md">◀️</a> |
+  <a href="./10-aws-storage.md">▶️</a>
+</div>
 
 
 

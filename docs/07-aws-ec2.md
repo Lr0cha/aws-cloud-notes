@@ -44,7 +44,7 @@ It allows, for example, organizations to run applications without the cost and c
 - **Amazon Elastic File System (EFS)** – Fully managed, scalable shared file system accessible by multiple instances. 
 - [**Amazon S3 Integration**](./05-aws-s3.md) – Store backups, logs, and application data for durability and cost efficiency. 
 
-- [**Database Services**]()
+- [**Database Services**](./11-aws-databases.md) -  Systematic, organized, and electronic collection of data.
 
 ---
 
@@ -59,6 +59,12 @@ It allows, for example, organizations to run applications without the cost and c
 ## 🔗 Interesting resources
 - [What is Amazon EC2?](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts.html)
 - [Introduction to AWS EC2](https://www.geeksforgeeks.org/cloud-computing/what-is-elastic-compute-cloud-ec2/)
+
+<div align="center">
+  <a href="./06-aws-vpc.md">◀️</a> |
+  <a href="./08-aws-elb.md">▶️</a>
+</div>
+
 
 
 

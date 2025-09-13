@@ -22,3 +22,7 @@ Cloud computing is the on-demand delivery of IT resources, such as computing pow
 ## 🔗 Interesting resources
 - [What is cloud computing?](https://aws.amazon.com/pt/what-is-cloud-computing/)
 
+<div align="center">
+  <a href="./networking-basics.md">◀️</a> | 
+  <a href="./02-what-is-aws.md">▶️</a>
+</div>

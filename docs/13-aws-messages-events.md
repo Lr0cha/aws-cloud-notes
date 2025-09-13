@@ -154,7 +154,10 @@ EventBridge includes two ways to process and deliver events:
 - [Amazon EventBridge Documentation](https://docs.aws.amazon.com/eventbridge/)
 - [AWS - Amazon EventBridge](https://www.geeksforgeeks.org/devops/aws-eventbridge/)
 
-
+<div align="center">
+  <a href="./12-aws-lambda.md">◀️</a> |
+  <a href="./14-aws-containers-services.md">▶️</a>
+</div>
 
 
 

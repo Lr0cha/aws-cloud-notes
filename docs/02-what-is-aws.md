@@ -25,22 +25,22 @@ By distributing applications across **multiple AZs**, users can design **resilie
 Here are some of the most commonly used AWS services:
 
 - **Compute**:
-  - <img src="../assets/ec2.png" alt="EC2" width="30"/> **Amazon EC2** – Virtual servers in the cloud. 
-  - <img src="../assets/lambda.png" alt="LAMBDA" width="30"/> **AWS Lambda** – Serverless computing that runs code without provisioning servers.
+  - <img src="../assets/ec2.png" alt="EC2" width="30"/> [**Amazon EC2**](07-aws-ec2.md) – Virtual servers in the cloud. 
+  - <img src="../assets/lambda.png" alt="LAMBDA" width="30"/> [**AWS Lambda**](12-aws-lambda.md) – Serverless computing that runs code without provisioning servers.
 
 - **Storage**: 
-  - <img src="../assets/s3.png" alt="S3" width="30"/> **Amazon S3** – Object storage with virtually unlimited scalability. 
-  - <img src="../assets/ebs.png" alt="EBS" width="30"/> **Amazon EBS** – Block storage volumes for use with EC2. 
+  - <img src="../assets/s3.png" alt="S3" width="30"/> [**Amazon S3**](05-aws-s3.md) – Object storage with virtually unlimited scalability. 
+  - <img src="../assets/ebs.png" alt="EBS" width="30"/> [**Amazon EBS**](10-aws-storage.md) – Block storage volumes for use with EC2. 
 
 - **Databases**:
-  - <img src="../assets/rds.png" alt="RDS" width="30"/> **Amazon RDS** – Managed relational databases (MySQL, PostgreSQL, Oracle, SQL Server).
-  - <img src="../assets/dynamo-db.png" alt="DYNAMODB" width="30"/> **Amazon DynamoDB** – NoSQL database with single-digit millisecond latency.
+  - <img src="../assets/rds.png" alt="RDS" width="30"/> [**Amazon RDS**](11-aws-databases.md) – Managed relational databases (MySQL, PostgreSQL, Oracle, SQL Server).
+  - <img src="../assets/dynamo-db.png" alt="DYNAMODB" width="30"/> [**Amazon DynamoDB**](11-aws-databases.md) – NoSQL database with single-digit millisecond latency.
 
 - **Networking**:
-  - <img src="../assets/vpc.png" alt="VPC" width="30"/> **Amazon VPC** – Isolated networks in the cloud.
+  - <img src="../assets/vpc.png" alt="VPC" width="30"/> [**Amazon VPC**](06-aws-vpc.md) – Isolated networks in the cloud.
   - <img src="../assets/route53.png" alt="ROUTE53" width="30"/> **Route 53** – Scalable Domain Name System (DNS) service. 
-- **Security & Identity**:  
-  - <img src="../assets/iam.png" alt="IAM" width="30"/> **AWS IAM** – Identity and Access Management for fine-grained permissions.
+- **Security & Identity**: 
+  - <img src="../assets/iam.png" alt="IAM" width="30"/> [**AWS IAM**](04-aws-iam.md) – Identity and Access Management for fine-grained permissions.
 
 ---
 
@@ -56,6 +56,12 @@ Here are some of the most commonly used AWS services:
 
 ## 🔗 Interesting resources
 - [What is aws?](https://aws.amazon.com/pt/what-is-aws/)
+
+<div align="center">
+  <a href="./01-cloud-overview.md">◀️</a> |
+  <a href="./03-shared-responsibilities.md">▶️</a>
+</div>
+
 
 
 

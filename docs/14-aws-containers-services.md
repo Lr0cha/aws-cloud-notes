@@ -121,5 +121,7 @@ Fargate is a **serverless compute engine for containers**.
 - [Amazon Elastic Container Service (ECS)](https://www.geeksforgeeks.org/devops/introduction-to-amazon-elastic-container-service-ecs/)
 - [AWS Fargate for Amazon ECS](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/AWS_Fargate.html)
 
-
+<div align="center">
+  <a href="./13-aws-messages-events.md">◀️</a> |
+</div>
 

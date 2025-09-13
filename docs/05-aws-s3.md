@@ -66,7 +66,10 @@ Amazon S3 offers multiple storage classes to balance **cost, availability, and p
 - [What is Amazon S3?](https://docs.aws.amazon.com/AmazonS3/latest/userguide/Welcome.html)
 - [Introduction to AWS S3](https://www.geeksforgeeks.org/devops/introduction-to-aws-simple-storage-service-aws-s3/)
 
-
+<div align="center">
+  <a href="./04-aws-iam.md">◀️</a> |
+  <a href="./06-aws-vpc.md">▶️</a>
+</div>
 
 
 

@@ -104,3 +104,8 @@ Caching services are used to **reduce database load** and improve application pe
 - [Amazon DynamoDB Documentation](https://docs.aws.amazon.com/dynamodb/)
 - [Common ElastiCache Use Cases and How ElastiCache Can Help](https://docs.aws.amazon.com/AmazonElastiCache/latest/dg/elasticache-use-cases.html)
 - [Using AWS Lambda with Amazon DynamoDB](https://docs.aws.amazon.com/lambda/latest/dg/with-ddb.html)
+
+<div align="center">
+  <a href="./10-aws-storage.md">◀️</a> |
+  <a href="./12-aws-lambda.md">▶️</a>
+</div>

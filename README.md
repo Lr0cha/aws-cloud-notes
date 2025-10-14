@@ -29,6 +29,10 @@ Welcome! This repository contains notes, guides, and summaries about **Cloud Com
 12. [AWS Lambda (Serverless)](docs/12-aws-lambda.md)
 13. [AWS Messaging & Events (SQS, SNS, EventBridge)](docs/13-aws-messages-events.md)
 14. [AWS Containers (ECR, ECS, Fargate)](docs/14-aws-containers-services.md)
+15. [AWS Cloudformation (IAC)](docs/15-aws-cloudformation.md)
+
+### 🔹 Extras
+16. [Useful Resources & References](docs/16-resources.md)
     
 ---
 

@@ -31,8 +31,18 @@ Welcome! This repository contains notes, guides, and summaries about **Cloud Com
 14. [AWS Containers (ECR, ECS, Fargate)](docs/14-aws-containers-services.md)
 15. [AWS Cloudformation (IAC)](docs/15-aws-cloudformation.md)
 
-### 🔹 Extras
-16. [Useful Resources & References](docs/16-resources.md)
+<div align="center">
+  <h2>📚 Useful Resources & Learning Materials</h2>
+</div>
+
+- **[AWS Official Documentation](https://docs.aws.amazon.com/)**  
+
+- **[GeeksforGeeks](https://www.geeksforgeeks.org/)** 
+
+<h3>🎥 YouTube Playlists</h3>
+
+- ▶️ **[Introduction to Networking](https://youtube.com/playlist?list=PLB_6XQbdVE6twiC0lwxq5PrmyvjgomxDT&si=lvVaq89wrxPFKrIm)**  
+- ▶️ **[AWS: Learn Amazon Web Services (AWS)](https://youtube.com/playlist?list=PLwyXYwu8kL0wg9R_VMeXy0JiK5_c70IrV&si=ne2FwrYOk6Xn48T9)**  
     
 ---
 
